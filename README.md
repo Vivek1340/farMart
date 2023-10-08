@@ -48,7 +48,8 @@ List the main features of the project.
 ### Prerequisites
 
 * Using the steps mentioned above , all the dependencies will be download.
-Note:- Please make sure you have Node and NPM installed on your system.  
+#### Note:- Please make sure you have Node and NPM installed on your system.  
+#### Note:- Please Note that even after following aforesaid instructions , you will also require Secret API keys which are not available publicly on GitHub due to security reasons.
 
 
 ## Usage
