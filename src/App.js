@@ -30,7 +30,7 @@ function App() {
           checkUserIsValid() ? <Profile /> : <Navigate to="/login" replace />
           }
         />
-        <Route exact path="/login" element={<Login />} />
+        <Route exact path="/login" element={checkUserIsValid() ? <Profile /> : <Login/>} />
         <Route
           path="/:shortLink"
           element={
@@ -39,7 +39,7 @@ function App() {
         />
        <Route
         path="*"
-        element={<Navigate to="/login" replace/>}
+        element={checkUserIsValid() ?<Navigate to="/profile/upload" replace/> : <Navigate to="/login" replace/>}
         />
       </Routes>
     </div>
