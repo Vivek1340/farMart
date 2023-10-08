@@ -14,4 +14,4 @@ export const checkUserIsValid = () => {
 };
 
 
-export const frontendUrl = "localhost:3000";
+export const frontendUrl = "https://farmart-three.vercel.app/";
