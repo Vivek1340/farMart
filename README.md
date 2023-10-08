@@ -39,10 +39,10 @@ List the main features of the project.
 * Run `cd backend` to enter the backend directory.
 * Run `npm install` for both the directories.
 * Run `node index.js` to start the server.
-* Now you can access the server at localhost:8000
+* Now you can access the server at `localhost:8000`
 
-* Open a new terminal and run 'cd frontend' to enter the frontend directory
-* After running ' npm install' , run ' npm start' to start the local client at port 3000
+* Open a new terminal and run `cd frontend` to enter the frontend directory
+* After running `npm install` , run `npm start` to start the local client at `port 3000`
 * You may need to update the Base url inside `frontend\src\api.js` to `localhost:8000`
 
 ### Prerequisites
