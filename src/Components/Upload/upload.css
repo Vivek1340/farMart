@@ -1,0 +1,65 @@
+.container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    position: relative;
+    overflow: hidden;
+    width: 768px;
+    max-width: 100%;
+    min-height: 480px;
+    padding: 30px;
+   
+}
+
+.fileUpload {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.input{
+    margin-bottom: 20px;
+    padding: 20px 0 10px;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+}
+.input i {
+    font-size: 40px;
+}
+.input input[type="file"]{
+    display: none;
+  }
+
+.fileUpload button{
+    width:150px;
+    margin-bottom: 20px;
+}
+
+.note{
+    
+    color: orangered;
+}
+
+.fileError{ 
+    margin: 0 5px;
+    color: orangered;
+}
+
+.pdfPreview {
+
+    height: 500px;
+    width: 100%;
+}
+
+.imgPreview{
+    height: 500px;
+    width: 100%;
+}
+
+.error{
+    margin: 0 5px;
+}
