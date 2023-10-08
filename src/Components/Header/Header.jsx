@@ -18,7 +18,7 @@ const navigate = useNavigate()
 
   const handleSignOut = () => {
     localStorage.removeItem("profile");
-navigate('/l;go')
+navigate('/login')
   };
 
   return (
